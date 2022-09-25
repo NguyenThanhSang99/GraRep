@@ -37,7 +37,3 @@ class Graph(object):
 
         file.close()
         self.encode_node()
-
-    def read_graph(self, graph):
-        self.Graph = graph
-        self.encode_node()
